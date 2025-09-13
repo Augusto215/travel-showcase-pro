@@ -2,57 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Travel Agency Design System - Ocean-inspired palette */
+/* Professional Travel Agency Design System */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 213 31% 14%;
+    --foreground: 220 13% 18%;
 
     --card: 0 0% 100%;
-    --card-foreground: 213 31% 14%;
+    --card-foreground: 220 13% 18%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 213 31% 14%;
+    --popover-foreground: 220 13% 18%;
 
-    /* Ocean blue primary palette */
-    --primary: 199 89% 48%;
+    /* Professional navy blue palette */
+    --primary: 220 26% 25%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 199 89% 65%;
-    --primary-dark: 199 89% 35%;
+    --primary-light: 220 26% 35%;
+    --primary-dark: 220 26% 18%;
 
-    /* Turquoise secondary */
-    --secondary: 180 51% 85%;
-    --secondary-foreground: 213 31% 14%;
+    /* Neutral secondary */
+    --secondary: 220 9% 92%;
+    --secondary-foreground: 220 13% 18%;
 
-    /* Soft grays */
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 25% 46%;
+    /* Professional grays */
+    --muted: 220 9% 96%;
+    --muted-foreground: 220 9% 46%;
 
-    /* Sand accent */
-    --accent: 43 74% 92%;
-    --accent-foreground: 213 31% 14%;
+    /* Subtle accent */
+    --accent: 220 9% 95%;
+    --accent-foreground: 220 13% 18%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 31% 91%;
-    --input: 214 31% 91%;
-    --ring: 199 89% 48%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 220 26% 25%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    /* Travel-specific design tokens */
-    --gradient-ocean: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
-    --gradient-sunset: linear-gradient(135deg, hsl(43 74% 66%), hsl(21 89% 70%));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary) / 0.9), hsl(var(--primary-dark) / 0.7));
+    /* Professional design tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
+    --gradient-subtle: linear-gradient(135deg, hsl(220 9% 98%), hsl(220 9% 95%));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary) / 0.85), hsl(var(--primary-dark) / 0.9));
     
-    --shadow-card: 0 4px 24px hsl(var(--primary) / 0.1);
-    --shadow-hover: 0 12px 40px hsl(var(--primary) / 0.15);
-    --shadow-destination: 0 8px 32px hsl(213 31% 14% / 0.12);
+    --shadow-card: 0 2px 10px hsl(220 13% 18% / 0.08);
+    --shadow-hover: 0 4px 20px hsl(220 13% 18% / 0.12);
+    --shadow-destination: 0 6px 25px hsl(220 13% 18% / 0.10);
 
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-bounce: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -72,35 +72,35 @@
   }
 
   .dark {
-    --background: 213 31% 14%;
-    --foreground: 0 0% 100%;
+    --background: 220 26% 14%;
+    --foreground: 0 0% 95%;
 
-    --card: 213 31% 14%;
-    --card-foreground: 0 0% 100%;
+    --card: 220 26% 14%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 213 31% 14%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 220 26% 14%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 199 89% 65%;
-    --primary-foreground: 213 31% 14%;
-    --primary-light: 199 89% 75%;
-    --primary-dark: 199 89% 45%;
+    --primary: 220 26% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 220 26% 55%;
+    --primary-dark: 220 26% 35%;
 
-    --secondary: 180 51% 25%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 220 9% 25%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 217 32% 17%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 220 13% 20%;
+    --muted-foreground: 220 9% 65%;
 
-    --accent: 43 74% 20%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 220 9% 22%;
+    --accent-foreground: 0 0% 95%;
 
-    --destructive: 0 63% 31%;
+    --destructive: 0 63% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 217 32% 17%;
-    --input: 217 32% 17%;
-    --ring: 199 89% 65%;
+    --border: 220 13% 20%;
+    --input: 220 13% 20%;
+    --ring: 220 26% 45%;
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;

@@ -15,11 +15,11 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        // Travel agency custom variants
-        hero: "bg-gradient-ocean text-primary-foreground hover:shadow-hover transform hover:-translate-y-1 transition-bounce font-semibold",
-        travel: "bg-gradient-sunset text-primary-foreground hover:shadow-hover shadow-card",
-        ocean: "bg-primary-light text-primary-foreground hover:bg-primary-dark shadow-destination hover:shadow-hover",
-        glass: "bg-background/80 backdrop-blur-sm border border-primary/20 text-foreground hover:bg-background/90 hover:border-primary/40",
+        // Professional agency variants
+        hero: "bg-gradient-primary text-primary-foreground hover:shadow-hover transform hover:-translate-y-1 transition-smooth font-semibold",
+        professional: "bg-primary text-primary-foreground hover:bg-primary-light shadow-card hover:shadow-hover",
+        neutral: "bg-primary-light text-primary-foreground hover:bg-primary-dark shadow-destination hover:shadow-hover",
+        glass: "bg-background/90 backdrop-blur-sm border border-border text-foreground hover:bg-background hover:border-primary/30",
       },
       size: {
         default: "h-10 px-4 py-2",

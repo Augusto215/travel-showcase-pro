@@ -51,7 +51,7 @@ const destinations = [
 
 const DestinationsSection = () => {
   return (
-    <section id="destinos" className="py-20 bg-gradient-to-br from-background to-accent/20">
+    <section id="destinos" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
@@ -106,7 +106,7 @@ const DestinationsSection = () => {
                       <Calendar className="h-4 w-4" />
                       <span className="text-sm">{destination.duration}</span>
                     </div>
-                    <Button variant="ocean" size="sm">
+                    <Button variant="neutral" size="sm">
                       Ver Detalhes
                     </Button>
                   </div>
@@ -117,7 +117,7 @@ const DestinationsSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="travel" size="lg">
+          <Button variant="professional" size="lg">
             Ver Todos os Destinos
           </Button>
         </div>

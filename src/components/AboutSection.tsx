@@ -10,16 +10,16 @@ const stats = [
 
 const AboutSection = () => {
   return (
-    <section id="sobre" className="py-20 bg-gradient-to-br from-accent/30 to-background">
+    <section id="sobre" className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-                Sua Jornada Começa
-                <span className="block bg-gradient-ocean bg-clip-text text-transparent">
-                  Conosco
+                Experiência e Confiança
+                <span className="block text-primary">
+                  há 15 Anos
                 </span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -65,7 +65,7 @@ const AboutSection = () => {
                 key={index}
                 className="text-center p-8 bg-card rounded-lg shadow-card hover:shadow-hover transition-smooth group"
               >
-                <div className="w-16 h-16 bg-gradient-ocean rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-bounce">
+                <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-smooth">
                   <stat.icon className="h-8 w-8 text-primary-foreground" />
                 </div>
                 <div className="text-3xl font-bold text-foreground mb-2">

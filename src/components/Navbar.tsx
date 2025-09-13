@@ -23,7 +23,7 @@ const Navbar = () => {
             <a href="#contato" className="text-foreground hover:text-primary transition-smooth">
               Contato
             </a>
-            <Button variant="ocean" size="sm">
+            <Button variant="neutral" size="sm">
               Consulte Agora
             </Button>
           </div>

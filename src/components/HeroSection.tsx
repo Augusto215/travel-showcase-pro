@@ -18,13 +18,13 @@ const HeroSection = () => {
         <div className="space-y-8">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight">
             Explore o Mundo
-            <span className="block bg-gradient-sunset bg-clip-text text-transparent">
+            <span className="block text-primary-foreground">
               Sem Limites
             </span>
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto leading-relaxed">
-            Descubra destinos incríveis, viva experiências únicas e crie memórias inesquecíveis com nossos pacotes personalizados.
+            Descubra destinos incríveis, viva experiências únicas e crie memórias inesquecíveis com nossos pacotes personalizados de alto padrão.
           </p>
           
           {/* Stats */}
